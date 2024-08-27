@@ -12,3 +12,9 @@ function Palindrome(str) {
   }
 }
 Palindrome('Breadan');
+
+//************************** */
+function Palindrome2(str) {
+  return str === str.split('').reverse().join('');
+}
+console.log(Palindrome2('level'));
